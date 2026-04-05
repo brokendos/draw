@@ -1,0 +1,98 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.color {
+    height: 50px;
+    width: 50px;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(1, 50px);
+    float: left;
+    padding-right: 30px
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.red.active {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.blue.active {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.yellow {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.yellow.active {
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.lime {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.lime.active {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+.pink {
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+.pink.active {
+    background-color: rgba(255, 0, 255, 1);
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.white.active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.gray {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.gray.active {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+.cyan {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cyan.active {
+    background-color: rgba(0, 0, 0, 1);
+}
